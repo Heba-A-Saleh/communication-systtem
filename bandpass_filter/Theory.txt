@@ -1,0 +1,26 @@
+# Time and frequency domain analysis of the signals.
+
+## Part a
+First I generated a sample signal, x(t), where it is composed of 3 sinusoidal signals with frequencies 10, 20, and 50 Hz. 
+1. To generate x[n] in time domain, The sampling time or frequencyis determined. Since the maximum frequency
+content of x(t) is 50 Hz, our sampling frequency according to Nyquist Criterion should be at least
+twice of 50 Hz, or 100 Hz. Over-sampling is done for better graphing 
+
+                      x(t) = cos(2π10t) + cos(2π20t) + cos(2π50t)
+
+## Part b
+X(f) represent the discrete Fourier Transform of x[n]. Use Matlab’s fft function to perform this operation. Plot fft of
+x[n]. 
+
+## Part c
+In order to shift the domain from [0 , 2π] to [ −π, π] I use another Matlab’s function: fftshift. Hence, after taking the fft of the signal x[n], also pass the fft signal through the function fftshift. The last step in seeing the frequency domain of x(t) is to convert [ −π, π] into frequency domain of Hz. For this, we use the fact that π corresponds to the half of the sampling frequency, Fs = 2. 
+
+## Part d
+Design a filter that will only keep 20 Hz component. These filters are called band-pass filters, i.e., they only pass the certain band in the middle of frequency domain component. 
+
+## Part e
+For frequency domain filtering, we know that the signal in time domain is passed through the filter, hence it is convolved with the system, h[n], but in frequency domain we have multiplication. Hence, multiply X(f) with H(f) to get Y (f)
+
+## Part f
+
+The time domain value of Y (f).
