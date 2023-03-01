@@ -17,9 +17,6 @@ The second project focuses on implementing the Huffman coding algorithm, which i
 
 The third project in this repository is a Parity Check implementation. Parity check is a simple error detection technique that involves adding a parity bit to a message. This project provides an implementation of the parity check algorithm in the programming language of your choice. The implementation can be used to detect errors in data transmitted over a communication channel.
 
-### Linear Block Codes with Interleaving and Framing
-The fourth project focuses on implementing linear block codes with interleaving and framing techniques. It includes MATLAB code for encoding and decoding messages using various linear block codes.
-
 ### Signal Processing
 The fifth project focuses on implementing various signal processing techniques that are commonly used in communication systems. It includes MATLAB code for filtering, modulation, demodulation, and other signal processing techniques.
 
