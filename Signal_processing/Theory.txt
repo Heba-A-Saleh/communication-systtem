@@ -1,0 +1,28 @@
+# Discrete Signals and Signal Processing
+
+Signal processing mainly deals with the analysis synthesis, and modification of signals.
+The signal usually studied in frequency domain. Processing of signals can be done using several
+methods, such as using gates to isolate the signal of interest or frequency filters to smooth or
+reject unwanted frequencies.....etc. In this lab, we took a look on sounds, images and gyroscope
+signal processing along with covering the discrete signals.
+
+## Audio Sound Signals
+
+When dealing with audio signals, noise interference is a vital element when processing
+sound signals. To obtain a clear sound signal, all noises signals should be eliminated. This can be
+achieved using low pass filters (op amps). Signal’s characteristics play a role in processing sound
+signals. Frequency is directly proportional to the sound pitch, while signal’s amplitude
+corresponds to the signal volume. The higher the amplitude the louder the sound. For adding and
+removing several signal, using summing amplifiers. In this paper, we studied some of the sound
+signal processing features using Matlab.
+
+## Image Processing
+
+An image is usually sampled into discrete values by its colours range (Pixels) the higher
+the sampling rate the higher the image resolution (more smaller pixels).
+
+## Sampling and Nyquist theorem
+
+Nyquist theorem states that the sampling rate must be at least twice the maximum
+frequency to obtain the original frequency. Lower sampling rate will result in the signal
+distortion known as aliasing.

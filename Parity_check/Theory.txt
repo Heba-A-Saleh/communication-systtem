@@ -1,0 +1,41 @@
+I will send the following text with channel coding and then perform decoding 
+
+Text = "Basic Digital Communication with Networking"
+
+Using the parity equations given below:
+P1 = D1 + D4 + D5 + D7 + D9 + D10 + D11
+P2 = D1 + D2 + D4 + D6 + D7 + D8 + D9
+P3 = D2 + D3 + D5 + D7 + D8 + D9 + D10
+P4 = D3 + D4 + D6 + D8 + D9 + D10 + D11
+
+Part 1
+The coding parameters (n,k,d) is determined 
+
+Part 2
+The generator matrix,G, at the channel encoder part is determine 
+
+Part 3
+Channel Encoding: by determining the parity check matrix, H from G for the channel decoder part.
+
+Part 4
+Coding: converting all the letters given above into their binary representation by using ASCII
+table and apply (n,k,d) code above by using the generator matrix. 
+
+Part 5
+Interleaving: interleaving with a block size of 16 x 15 or 240 bits is applied.
+
+Part 6
+Framing: Serialize all the data into a row vector as if it is now ready to be sent over a binary symmetric
+channel (BSC). As an indication of start of a frame append the serial data with 01111110. Moreover, a random number between 1 and 100 is generated and many random bits appended to the beginning of the serial data after the frame start. This way I will make the beginning of the frame unknown to the receiver. 
+
+Part 7
+Introduce errors
+
+Part 8
+De-Framing
+
+Part 9
+De-Interleaving
+
+Part 10
+De-Coding: by applying the syndrome decoding using the matrix H for the correction of error bits.

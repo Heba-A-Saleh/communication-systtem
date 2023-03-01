@@ -1,0 +1,23 @@
+# CRC Features
+
+Type of linear block codes
+Data Link Layer
+Error Detection Code
+Single-Bit and Burst Error correction (Double bit error correction)
+
+# CRC Design 
+
+length of the block code = Polynomial Generator
+
+Maximize the error detecting capabilities
+Minimizing the remainder repetition.
+Generates unique remainders 
+
+# CRC Model (CRC-8)
+Generator Size = 9-bits
+
+Generator Hex. = 0xEA [1 1 1 0 1 0 1 0 1]
+
+Hamming Distance = 4 (Detect up to 3 ) 
+
+
